@@ -8,9 +8,9 @@ class Knob:
             "required": {
                 "float": ("FLOAT", {
                     "default": 1.0,
-                    "min": 1.0,
-                    "max": 10.0,
-                    "step": 0.01,
+                    "min": 0.0,
+                    "max": 1.0,
+                    "step": 0.01, 
                     "round": 0.001, # The value representing the precision to round to, will be set to the step value by default. Can be set to False to disable rounding.
                     "display":"knob",
                     "lazy": False,
@@ -20,7 +20,7 @@ class Knob:
                     "default": 1.0,
                     "min": 1.0,
                     "max": 100.0,
-                    "step": 1,
+                    "step": 1, 
                     "round": 0.001, # The value representing the precision to round to, will be set to the step value by default. Can be set to False to disable rounding.
                     "display":"knob",
                     "lazy": False,
